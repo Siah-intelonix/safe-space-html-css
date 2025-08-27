@@ -174,3 +174,33 @@ section {
   color: #555;
   font-style: italic;
 }
+
+.thank-you {
+  background-color: #fce4ec;
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 700px;
+  margin: 100px auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.thank-you h1 {
+  font-size: 36px;
+  color: #d81b60;
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.thank-you a {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #6a1b9a;
+  text-decoration: none;
+}
