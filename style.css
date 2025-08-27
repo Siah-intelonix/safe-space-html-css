@@ -87,3 +87,90 @@ section {
   color: #6a1b9a;
   font-size: 14px;
 }
+
+.contact {
+  background-color: #f3e5f5;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.contact h2 {
+  color: #6a1b9a;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact button {
+  background-color: #ab47bc;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.resources {
+  background-color: #e8f5e9;
+  padding: 30px 20px;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.resources h2 {
+  color: #388e3c;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources li {
+  margin: 10px 0;
+}
+
+.resources a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.journal {
+  background-color: #fffde7;
+  padding: 30px 20px;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.journal h2 {
+  color: #fbc02d;
+  font-size: 24px;
+}
+
+.journal p {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+}
